@@ -4,8 +4,8 @@
 
 // Solution - 1) create a 2D array - int[char1[].length +1][char2[].length +1]
 //            2) 1st row and 1st column should be 0 -
-//            3) if char1[i] == char2[j], add 1 to the value of the cell diagonally behind
-//            4) else - compare the element directly above and behind and assign bigger vale to the cell
+//            3) if char1[i+1] == char2[j+1], add 1 to the value of the cell diagonally above/behind
+//            4) else - compare the element directly above and behind and assign bigger value to the current cell
 //            4) the last cell of the 2D array will be the largest subsequence count.
 
 // To get the longest subsequence string -
